@@ -8,7 +8,7 @@ pipeline {
             }
         }
         stage('Hi bash') {
-            step {
+            steps {
                 sh '''
                 echo "Salut bg !"
                 '''
