@@ -16,5 +16,12 @@ pipeline {
                 '''
             }
         }
+        stage('Hi sharelib') {
+            steps {
+                script {
+                    hi()
+                }
+            }
+        }
     }
 }
