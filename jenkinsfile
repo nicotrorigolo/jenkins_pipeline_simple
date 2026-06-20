@@ -7,5 +7,12 @@ pipeline {
                 echo 'Hello World'
             }
         }
+        stage('Hi bash') {
+            step {
+                sh '''
+                echo "Salut bg !"
+                '''
+            }
+        }
     }
 }
